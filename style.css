@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0px;
+  }
+  .name{
+    color: #F07BA4;
+    font-family: fantasy;
+    position: relative;
+    text-align: center;
+    /*left: 700px;*/
+    top: 20px;
+    font-size: 100px;
+  }
+  .about{
+    color: #F18621;
+    position: relative;
+    font-size: large;
+    top: 50px;
+    text-align: center;
+  }
+  .aboutImage{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+  }
+  table{
+    max-width: 90%;
+  }
+  .education {
+    width: 100%;
+    position: relative;
+    left: 75px;
+    top: 30px;
+    color: #41AB3A;
+    padding: 25px;
+  }
+  .career {
+    width: 100%;
+    position: relative;
+    left: 75px;
+    top: 50px;
+    color: #37CEDA;
+  }
+  /*tr:hover{
+    background-color: #EAD82B;
+    color: white;
+    /*color: #EAD82B;
+    text-decoration: underline;
+  }*/
+  .clear{
+    height: 75px;
+  }
+  .images-container{
+    width: 100%;
+  }
+  .images li{
+    display: inline-block;
+    padding: 5px;
+  }
+  .images{
+    width: 100%;
+    /*background-color: pink;*/
+    text-align: center;
+  }
+  .images li img {
+    width: 100%;
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+  }
+  .ALPHApic{
+    position: relative;
+    right: 20px;
+  }
+  .ToothchePic{
+    position: relative;
+    left: 20px;
+  }
+  .etc{
+    left: 200px;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    color: #A643D7;
+    text-align: center;
+    top: 175px;
+    margin: 0 50px;
+  }
+  .sparkles, .balloon, .code, .watch{
+    color: #A643D7;
+  }
